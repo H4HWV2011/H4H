@@ -578,7 +578,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
                   />
                   <div>
                     <h1 className="org-title">Harmony for Hope, Inc.</h1>
-                    <p className="org-tagline">Uniting Communities Through Music & Art</p>
+                    <p className="org-tagline">Uniting West Virginia With Music, Art, & Appalachian Heritage Through Technology</p>
                   </div>
                 </div>
               </div>
@@ -731,7 +731,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
               </div>
             </div>
             <div className="footer-bottom">
-              <p>&copy; 2025 Harmony for Hope, Inc. &ldquo;Where Appalachia&apos;s past and future meet—uncompromised and unowned.&rdquo;</p>
+              <p>&copy; 2025 Harmony for Hope, Inc. &ldquo;Uniting West Virginia With Music, Art, & Appalachian Heritage Through Technology.&rdquo;</p>
             </div>
           </div>
         </footer>
