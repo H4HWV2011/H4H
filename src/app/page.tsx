@@ -1105,8 +1105,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
                 <h4>Connect With Us</h4>
                 <p>Join our community-driven mission to preserve and celebrate Appalachian heritage.</p>
                 <ul>
-                  <li><Link href="https://www.facebook.com/groups/238388528986076" target="_blank">Facebook Community</Link></li>
-                  <li><Link href="https://github.com/H4HWV2011/H4H" target="_blank">GitHub Projects</Link></li>
+                  <li><Link href="https://www.facebook.com/HarmonyForHopeinc" target="_blank">Facebook Community</Link></li>
                   <li><Link href="/volunteer">Volunteer Opportunities</Link></li>
                   <li><Link href="/donate">Support Our Mission</Link></li>
                 </ul>
