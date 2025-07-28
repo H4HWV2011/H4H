@@ -1,3 +1,17 @@
+#!/bin/bash
+# Enhanced Automated H4H Image Fix + Graphical Enhancements Script
+# Maintains your production code while adding advanced visual features
+
+cd ~/h4h-main
+
+echo "🎨 Starting enhanced H4H production upgrade with image fixes..."
+
+# Create backup
+cp src/app/page.tsx src/app/page.tsx.backup
+echo "✅ Created backup: src/app/page.tsx.backup"
+
+# Create enhanced production version with image fixes + advanced graphics
+cat > src/app/page.tsx << 'EOF'
 'use client';
 
 import React, { useEffect, useState } from 'react';
@@ -1032,3 +1046,36 @@ const HarmonyForHopeHomepage: React.FC = () => {
 };
 
 export default HarmonyForHopeHomepage;
+EOF
+
+echo "✅ Enhanced H4H production code with advanced graphics created"
+
+# Test build
+echo "🧪 Testing enhanced build..."
+npm run build
+
+if [ $? -eq 0 ]; then
+    echo "🎉 Enhanced build successful!"
+    
+    # Deploy automatically
+    echo "🚀 Deploying enhanced H4H with advanced graphics..."
+    git add .
+    git commit -m "Enhanced H4H: Fixed image paths + advanced graphics, animations, and visual effects"
+    git push origin main
+    
+    echo "🌟 Enhanced H4H deployment complete!"
+    echo "Your auto-rotating project showcase now includes:"
+    echo "• Fixed image paths for all 6 projects"
+    echo "• Advanced animations and hover effects" 
+    echo "• Enhanced typography with better font weights"
+    echo "• Improved color gradients and shadows"
+    echo "• Loading animations and visual transitions"
+    echo "• Better responsive design"
+    echo "• More robust error handling"
+    echo ""
+    echo "Check harmonyforhopewv.org in 2-3 minutes for the enhanced deployment."
+else
+    echo "❌ Enhanced build failed. Restoring backup..."
+    cp src/app/page.tsx.backup src/app/page.tsx
+    echo "✅ Backup restored."
+fi
