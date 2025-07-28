@@ -19,7 +19,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
       title: "Cultural Heritage Center",
       url: "https://culture.harmonyforhopewv.org/",
       description: "Preserving and celebrating Appalachian culture through community-driven arts programming, cultural education, and heritage preservation initiatives.",
-      image: "/images/h4h/culture-featured.jpg",
+      image: "/images/h4h/Cultural Heritage Center.jpg",
       category: "Cultural Preservation"
     },
     {
