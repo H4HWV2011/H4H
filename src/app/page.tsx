@@ -553,7 +553,8 @@ const HarmonyForHopeHomepage: React.FC = () => {
         .featured-image img {
           width: 100%;
           height: 400px;
-          object-fit: cover;
+          object-fit: contain;
+          object-position: center;
           border-radius: 30px;
           border: 5px solid var(--old-gold);
           box-shadow:
