@@ -16,11 +16,11 @@ const HarmonyForHopeHomepage: React.FC = () => {
       category: "Heritage Tourism"
     },
     {
-      title: "Cultural Heritage Center",
+      title: "Cultural Production Nonprofit",
       url: "https://culture.harmonyforhopewv.org/",
-      description: "Preserving and celebrating Appalachian culture through community-driven arts programming, cultural education, and heritage preservation initiatives.",
+      description: "Honoring the vibrant cultural production of Appalachia through community-driven arts, media, and heritage initiatives that empower local creators and preserve authenticity.",
       image: "/images/h4h/Cultural Heritage Center.jpg",
-      category: "Cultural Preservation"
+      category: "Cultural Production"
     },
     {
       title: "Oakvale Area Outreach Team",
@@ -1083,7 +1083,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
                 <h4>Our Projects</h4>
                 <ul>
                   <li><Link href="https://mhhwt.harmonyforhopewv.org/" target="_blank">Mount Hope Historic Walking Trail</Link></li>
-                  <li><Link href="https://culture.harmonyforhopewv.org/" target="_blank">Cultural Heritage Center</Link></li>
+                  <li><Link href="https://culture.harmonyforhopewv.org/" target="_blank">Cultural Production Nonprofit</Link></li>
                   <li><Link href="https://oaot.harmonyforhopewv.org/" target="_blank">Oakvale Area Outreach Team</Link></li>
                   <li><Link href="https://fccac.harmonyforhopewv.org/" target="_blank">Fayette County Community Arts Center</Link></li>
                   <li><Link href="https://ms.harmonyforhopewv.org/" target="_blank">MountainShares</Link></li>
