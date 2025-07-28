@@ -25,29 +25,29 @@ const HarmonyForHopeHomepage: React.FC = () => {
     {
       title: "Oakvale Area Outreach Team",
       url: "https://oaot.harmonyforhopewv.org/",
-      description: "Night Owl Community emergency response and community services, featuring magical blessing boxes and comprehensive community support programs led by Elizabeth's dedication to community care.",
-      image: "/images/h4h/Elizabeth.jpg",
+      description: "Night Owl Community emergency response and community services, featuring magical blessing boxes and comprehensive community support programs.",
+      image: "/images/h4h/Oakvale Area Outreach Team.jpg",
       category: "Community Services"
     },
     {
       title: "Fayette County Community Arts Center",
       url: "https://fccac.harmonyforhopewv.org/",
       description: "Community art gallery featuring local artists and expanding creative opportunities through professional arts education and cultural programming.",
-      image: "/images/h4h/fccac-featured.jpg",
+      image: "/images/h4h/Fayette County Community Arts Center.jpg",
       category: "Arts Center"
     },
     {
       title: "MountainShares Resource Platform",
       url: "https://ms.harmonyforhopewv.org/",
       description: "Community resource sharing platform connecting neighbors and fostering mutual support across West Virginia communities.",
-      image: "/images/h4h/ms-featured.jpg",
+      image: "/images/h4h/MountainShares Resource Platform.jpg",
       category: "Resource Sharing"
     },
     {
       title: "Mount Hope Regional Band",
       url: "https://mhrb.harmonyforhopewv.org/",
       description: "Reviving community band performances and preserving musical heritage across Southern West Virginia through education and performance.",
-      image: "/images/h4h/band-featured.jpg",
+      image: "/images/h4h/Mount Hope Regional Band.jpg",
       category: "Musical Heritage"
     }
   ];
@@ -76,7 +76,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           font-family: 'Inter', sans-serif;
           line-height: 1.6;
           color: #e8e8e8;
-          background: 
+          background:
             radial-gradient(circle at 15% 30%, rgba(207, 181, 59, 0.18) 0%, transparent 60%),
             radial-gradient(circle at 85% 70%, rgba(30, 58, 138, 0.18) 0%, transparent 60%),
             radial-gradient(circle at 50% 50%, rgba(207, 181, 59, 0.10) 0%, transparent 80%),
@@ -93,7 +93,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           left: 0;
           width: 100%;
           height: 100%;
-          background: 
+          background:
             url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23CFB53B' fill-opacity='0.05'%3E%3Ccircle cx='10' cy='10' r='2'/%3E%3Ccircle cx='70' cy='70' r='2'/%3E%3Ccircle cx='40' cy='40' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat,
             url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231e3a8a' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
           pointer-events: none;
@@ -122,14 +122,14 @@ const HarmonyForHopeHomepage: React.FC = () => {
 
         /* Enhanced Header with Premium Effects */
         header {
-          background: 
+          background:
             linear-gradient(135deg, var(--dark-navy) 0%, var(--royal-navy) 30%, var(--light-navy) 70%, var(--dark-navy) 100%);
           color: white;
           padding: 4rem 0;
           position: relative;
           overflow: hidden;
           border-bottom: 5px solid var(--old-gold);
-          box-shadow: 
+          box-shadow:
             0 15px 50px rgba(0, 0, 0, 0.6),
             inset 0 1px 0 rgba(255, 255, 255, 0.1);
         }
@@ -140,7 +140,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           left: 0;
           right: 0;
           bottom: 0;
-          background: 
+          background:
             radial-gradient(circle at 25% 25%, rgba(207, 181, 59, 0.2) 0%, transparent 70%),
             radial-gradient(circle at 75% 75%, rgba(30, 58, 138, 0.2) 0%, transparent 70%);
           z-index: 1;
@@ -189,7 +189,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           height: 100px;
           border-radius: 50%;
           border: 5px solid var(--old-gold);
-          box-shadow: 
+          box-shadow:
             0 0 40px var(--shadow-gold),
             0 0 80px rgba(207, 181, 59, 0.3),
             inset 0 0 30px rgba(255, 255, 255, 0.15);
@@ -218,7 +218,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
 
         .logo:hover {
           transform: scale(1.1) rotate(10deg);
-          box-shadow: 
+          box-shadow:
             0 0 60px var(--shadow-gold),
             0 0 120px rgba(207, 181, 59, 0.4);
         }
@@ -243,12 +243,12 @@ const HarmonyForHopeHomepage: React.FC = () => {
         }
 
         @keyframes title-shimmer {
-          from { 
-            filter: drop-shadow(0 0 15px rgba(207, 181, 59, 0.4)); 
+          from {
+            filter: drop-shadow(0 0 15px rgba(207, 181, 59, 0.4));
             transform: translateY(0);
           }
-          to { 
-            filter: drop-shadow(0 0 25px rgba(207, 181, 59, 0.7)); 
+          to {
+            filter: drop-shadow(0 0 25px rgba(207, 181, 59, 0.7));
             transform: translateY(-2px);
           }
         }
@@ -286,7 +286,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           font-weight: 900;
           margin-bottom: 2.5rem;
           color: var(--old-gold);
-          text-shadow: 
+          text-shadow:
             3px 3px 6px rgba(30, 58, 138, 0.8),
             0 0 40px rgba(207, 181, 59, 0.5);
           letter-spacing: 4px;
@@ -311,7 +311,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
 
         /* Premium Mission Statement */
         .mission-statement {
-          background: 
+          background:
             linear-gradient(135deg, rgba(30, 58, 138, 0.25) 0%, rgba(207, 181, 59, 0.18) 100%);
           padding: 4rem;
           border-radius: 30px;
@@ -319,7 +319,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           max-width: 1200px;
           border: 4px solid rgba(207, 181, 59, 0.5);
           backdrop-filter: blur(25px);
-          box-shadow: 
+          box-shadow:
             0 25px 80px rgba(0, 0, 0, 0.4),
             inset 0 1px 0 rgba(255, 255, 255, 0.15);
           position: relative;
@@ -405,7 +405,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
         /* Premium Featured Project */
         .featured-project {
           margin-bottom: 8rem;
-          background: 
+          background:
             linear-gradient(135deg, rgba(30, 58, 138, 0.18) 0%, rgba(207, 181, 59, 0.12) 100%);
           border-radius: 40px;
           padding: 5rem;
@@ -414,7 +414,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
           position: relative;
           overflow: hidden;
-          box-shadow: 
+          box-shadow:
             0 40px 100px rgba(0, 0, 0, 0.4),
             inset 0 1px 0 rgba(255, 255, 255, 0.15);
         }
@@ -436,7 +436,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
 
         .featured-project:hover {
           transform: translateY(-12px) scale(1.02);
-          box-shadow: 
+          box-shadow:
             0 50px 120px rgba(207, 181, 59, 0.4),
             0 0 80px rgba(207, 181, 59, 0.3);
           border-color: var(--old-gold);
@@ -495,7 +495,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           font-weight: 700;
           font-size: 1.2rem;
           transition: all 0.5s ease;
-          box-shadow: 
+          box-shadow:
             0 15px 40px rgba(207, 181, 59, 0.5),
             inset 0 1px 0 rgba(255, 255, 255, 0.3);
           position: relative;
@@ -521,7 +521,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
 
         .project-link:hover {
           transform: translateY(-4px) scale(1.05);
-          box-shadow: 
+          box-shadow:
             0 20px 50px rgba(207, 181, 59, 0.7),
             inset 0 1px 0 rgba(255, 255, 255, 0.4);
         }
@@ -556,7 +556,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           object-fit: cover;
           border-radius: 30px;
           border: 5px solid var(--old-gold);
-          box-shadow: 
+          box-shadow:
             0 25px 60px rgba(207, 181, 59, 0.4),
             0 0 50px rgba(207, 181, 59, 0.3);
           transition: all 0.6s ease;
@@ -565,7 +565,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
 
         .featured-image:hover img {
           transform: scale(1.08);
-          box-shadow: 
+          box-shadow:
             0 30px 80px rgba(207, 181, 59, 0.5),
             0 0 70px rgba(207, 181, 59, 0.4);
         }
@@ -579,7 +579,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
         }
 
         .project-card {
-          background: 
+          background:
             linear-gradient(135deg, rgba(30, 58, 138, 0.18) 0%, rgba(207, 181, 59, 0.10) 100%);
           border-radius: 35px;
           padding: 3.5rem;
@@ -609,7 +609,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
         .project-card:hover {
           transform: translateY(-15px) scale(1.04);
           border-color: var(--old-gold);
-          box-shadow: 
+          box-shadow:
             0 35px 80px rgba(207, 181, 59, 0.4),
             0 0 50px rgba(207, 181, 59, 0.3);
         }
@@ -667,7 +667,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
         /* Enhanced About Section */
         .about-section {
           padding: 10rem 0;
-          background: 
+          background:
             linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 58, 138, 0.3) 100%);
           position: relative;
         }
@@ -835,22 +835,22 @@ const HarmonyForHopeHomepage: React.FC = () => {
           .hero-title {
             font-size: 3.5rem;
           }
-          
+
           .org-title {
             font-size: 2.2rem;
           }
-          
+
           .header-top {
             flex-direction: column;
             gap: 2rem;
           }
-          
+
           .featured-content,
           .about-content {
             grid-template-columns: 1fr;
             gap: 4rem;
           }
-          
+
           .projects-grid {
             grid-template-columns: 1fr;
           }
@@ -980,7 +980,7 @@ const HarmonyForHopeHomepage: React.FC = () => {
           <section className="projects-section container">
             <h2 className="section-title">Our Projects</h2>
 
-            {/* Enhanced Featured Project Rotator with Elizabeth Image for Oakvale */}
+            {/* Enhanced Featured Project Rotator with Updated Image Paths */}
             <div className="featured-project">
               <div className="featured-content">
                 <div className="featured-text">
@@ -1122,3 +1122,4 @@ const HarmonyForHopeHomepage: React.FC = () => {
 };
 
 export default HarmonyForHopeHomepage;
+
