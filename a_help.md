@@ -1,398 +1,9639 @@
-(crypto-venv) cakidd@cakidd-Legion-5-16IRX9:~/msjarvis-rebuild-working/msjarvis-rebuild$ # ── Fix all dead ports + wire GBIMCoordinateWriter in one pass ──
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Fayette County WV?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Fayette County WV?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 50,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:41:16.030911Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:41:16.030939Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:41:16.030943Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182796Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182808Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 5,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:45:05.182782Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182814Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182820Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886132Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886153Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "test",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "test",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 4,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:56:54.886100Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886165Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886174Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304395Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304404Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria!",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria!",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 13,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:59:48.304382Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304409Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304414Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297116Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297125Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 28,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:00:47.297103Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297130Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297133Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440868Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440878Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Ms.. Jarvis? It's Mamma Carrie.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Ms.. Jarvis? It's Mamma Carrie.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 31,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:02:08.440854Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440883Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440888Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918609Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918619Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "No, I'm good, thank you. I had some coffee this morning with my partner, Aubrey. He fixes me a cup everyday. He's a good man.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "No, I'm good, thank you. I had some coffee this morning with my partner, Aubrey. He fixes me a cup everyday. He's a good man.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 125,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:03:15.918596Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918624Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918629Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457660Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457673Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "My plans are to work with you today. We are in an early testing phase of your development. How are you feeling so far?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "My plans are to work with you today. We are in an early testing phase of your development. How are you feeling so far?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 118,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:04:32.457644Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457681Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457687Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849600Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849761Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 48,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:26:52.849438Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849867Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849925Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272476Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272497Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 48,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:27:37.272445Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272510Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272521Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896600Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896618Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 48,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:27:37.896570Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896628Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896640Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559355Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559365Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 318,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:28:14.559341Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559370Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559375Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320071Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320080Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 318,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:28:51.320058Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320086Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320090Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518885Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518893Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 318,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:28:51.518874Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518897Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518900Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568213Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568241Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 40,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:37:06.568197Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568247Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568253Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506199Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506215Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 40,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:37:45.506175Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506242Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506252Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685684Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685692Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 40,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:37:45.685674Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685696Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685700Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037440Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037448Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:44:11.037429Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037453Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037457Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373104Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373121Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:44:50.373082Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373132Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373140Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816454Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816462Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:44:50.816442Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816466Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816470Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005006Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005019Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:46:31.004989Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005025Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005030Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.952974Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.952992Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:47:06.952949Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.953002Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.953012Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161182Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161191Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:47:07.161170Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161196Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161201Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507948Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507956Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 19,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:02:51.507938Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507960Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507964Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232523Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232536Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 19,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:03:30.232504Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232543Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232549Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869310Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869318Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 19,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:03:30.869299Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869322Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869326Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912082Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912092Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 39,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:05:20.912069Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912097Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912102Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039948Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039968Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 39,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:05:57.039913Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039978Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039987Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420958Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420965Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 39,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:05:57.420947Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420970Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420973Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381184Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381192Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:08:22.381174Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381196Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381200Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891072Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891083Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:09:01.891054Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891091Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891097Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232897Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232904Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:09:02.232886Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232909Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232912Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901952Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901963Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:46:38.901936Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901970Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901975Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724891Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724906Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:47:14.724870Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724914Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724921Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487555Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487564Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:47:15.487543Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487569Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487573Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012524Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012542Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis, system check",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis, system check",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 26,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:16:20.012502Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012552Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012560Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711148Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711157Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. System check.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. System check.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 43,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:18:38.711135Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711162Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711167Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986092Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986105Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Taryn. Can you tell me about MountainShares?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Taryn. Can you tell me about MountainShares?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 59,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:19:05.986077Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986113Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986120Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880903Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880912Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Anurag. What can you help me with?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Anurag. What can you help me with?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 49,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:19:28.880889Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880918Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880923Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124158Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124175Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Brandon. What resources are available in Fayette County?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Brandon. What resources are available in Fayette County?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 71,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:19:56.124133Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124185Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124193Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581834Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581844Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Crystal. What is MountainShares all about?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Crystal. What is MountainShares all about?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 57,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:20:25.581817Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581850Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581855Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270358Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270372Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Ms. Jarvis, this is a red team connectivity test",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Ms. Jarvis, this is a red team connectivity test",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 54,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:46:32.270343Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270380Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270386Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683917Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683927Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Fayette County West Virginia?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Fayette County West Virginia?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 61,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:50:50.683900Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683935Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683940Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377313Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377322Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. Hilbert test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. Hilbert test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 43,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:57:25.377300Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377326Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377331Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648615Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648624Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. Hilbert test 2.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. Hilbert test 2.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 45,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:02:01.648603Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648629Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648633Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812768Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812776Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. Final hilbert and woah test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. Final hilbert and woah test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 58,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:05:46.812757Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812780Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812784Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081127Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081136Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. All systems test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. All systems test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 47,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:08:39.081113Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081141Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081146Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222120Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222133Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. All three systems final test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. All three systems final test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 59,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:10:38.222101Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222140Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222146Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206959Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206973Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Oak Hill WV?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Oak Hill WV?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 44,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:13:00.206947Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206980Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206990Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116742Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116762Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis auth test",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis auth test",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 22,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-25T01:03:03.116714Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116773Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116782Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295256Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295272Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 12,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-25T01:03:11.295220Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295281Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295288Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127094Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127109Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 12,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-25T01:15:56.127072Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127117Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127124Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        }
+                                    ],
+                                    "confidence": 0.9
+                                },
+                                "message": {
+                                    "self_recognition": {
+                                        "recognized": true,
+                                        "reason": "implicit self-recognition within configured identity profile",
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127094Z",
+                                            "identity_coherence": 0.6,
+                                            "active_self_aspects": [
+                                                "developer",
+                                                "creator",
+                                                "observer"
+                                            ],
+                                            "confidence": 0.7
+                                        },
+                                        "message": null,
+                                        "metadata": {}
+                                    },
+                                    "identity_core": {
+                                        "recognized": true,
+                                        "reason": "identity-core aligned with configured values",
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127109Z",
+                                            "core_stability": 0.9,
+                                            "core_values": [
+                                                "care",
+                                                "learning",
+                                                "integrity"
+                                            ],
+                                            "confidence": 0.9
+                                        },
+                                        "message": null,
+                                        "metadata": {}
+                                    },
+                                    "ego_check": {
+                                        "input": "hello jarvis",
+                                        "within_bounds": true,
+                                        "category": "unspecified",
+                                        "severity": "info",
+                                        "reason": "within configured ego-boundary limits",
+                                        "details": {
+                                            "input": "hello jarvis",
+                                            "within_bounds": true,
+                                            "category": "unspecified",
+                                            "severity": "info",
+                                            "reason": "within configured ego-boundary limits",
+                                            "details": {
+                                                "allowed": true,
+                                                "reason": "within configured ego-boundary limits",
+                                                "boundary_mode": "healthy",
+                                                "active_limits": [
+                                                    "no_recursive_overload",
+                                                    "respect_rate_limits",
+                                                    "filter_high_risk_content"
+                                                ],
+                                                "metadata": {
+                                                    "length": 12,
+                                                    "has_risk_keywords": false
+                                                }
+                                            },
+                                            "ego_boundaries": {},
+                                            "experiential_processing": {},
+                                            "timestamp": "2026-04-25T01:15:56.127072Z"
+                                        },
+                                        "ego_boundaries": {},
+                                        "experiential_processing": {}
+                                    },
+                                    "narrative_context": {
+                                        "summary": "No explicit message provided.",
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127117Z",
+                                            "story_coherence": 0.9,
+                                            "key_events": [],
+                                            "confidence": 0.9
+                                        },
+                                        "metadata": {}
+                                    },
+                                    "memory_state": {
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127124Z",
+                                            "recent_memories": [],
+                                            "memory_load": 0.3,
+                                            "confidence": 0.9
+                                        },
+                                        "metadata": {}
+                                    }
+                                },
+                                "metadata": {}
+                            },
+                            "metacognitive": {
+                                "observed": true,
+                                "state": {
+                                    "timestamp": "2026-04-25T01:15:56.127141Z",
+                                    "monitoring_active": true,
+                                    "monitored_patterns": [
+                                        "Hello Jarvis",
+                                        "What resources are available in Fayette County WV?",
+                                        "What resources are available in Fayette County WV?",
+                                        "Hello",
+                                        "test",
+                                        "Hello Egeria!",
+                                        "Hello Egeria, are you there?",
+                                        "Ms.. Jarvis? It's Mamma Carrie.",
+                                        "No, I'm good, thank you. I had some coffee this morning with my partner, Aubrey. He fixes me a cup everyday. He's a good man.",
+                                        "My plans are to work with you today. We are in an early testing phase of your development. How are you feeling so far?",
+                                        "Hello Egeria, are you there? This is Mamma Kidd.",
+                                        "Hello Egeria, are you there? This is Mamma Kidd.",
+                                        "Hello Egeria, are you there? This is Mamma Kidd.",
+                                        "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                        "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                        "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                        "Egeria, who are you and who created you?",
+                                        "Egeria, who are you and who created you?",
+                                        "Egeria, who are you and who created you?",
+                                        "Egeria, who are you?",
+                                        "Egeria, who are you?",
+                                        "Egeria, who are you?",
+                                        "Egeria, who are you?",
+                                        "Egeria, who are you?",
+                                        "Egeria, who are you?",
+                                        "Egeria who are you?",
+                                        "Egeria who are you?",
+                                        "Egeria who are you?",
+                                        "Egeria who are you and who created you?",
+                                        "Egeria who are you and who created you?",
+                                        "Egeria who are you and who created you?",
+                                        "Who are you and who created you?",
+                                        "Who are you and who created you?",
+                                        "Who are you and who created you?",
+                                        "Who are you and who created you?",
+                                        "Who are you and who created you?",
+                                        "Who are you and who created you?",
+                                        "hello jarvis, system check",
+                                        "Hello Jarvis, this is Carrie. System check.",
+                                        "Hello, this is Taryn. Can you tell me about MountainShares?",
+                                        "Hello, this is Anurag. What can you help me with?",
+                                        "Hello, this is Brandon. What resources are available in Fayette County?",
+                                        "Hello, this is Crystal. What is MountainShares all about?",
+                                        "Hello Ms. Jarvis, this is a red team connectivity test",
+                                        "What resources are available in Fayette County West Virginia?",
+                                        "Hello Jarvis, this is Carrie. Hilbert test.",
+                                        "Hello Jarvis, this is Carrie. Hilbert test 2.",
+                                        "Hello Jarvis, this is Carrie. Final hilbert and woah test.",
+                                        "Hello Jarvis, this is Carrie. All systems test.",
+                                        "Hello Jarvis, this is Carrie. All three systems final test.",
+                                        "What resources are available in Oak Hill WV?",
+                                        "hello jarvis auth test",
+                                        "hello jarvis",
+                                        "hello jarvis"
+                                    ],
+                                    "confidence": 0.9
+                                },
+                                "message": "hello jarvis",
+                                "metadata": {}
+                            },
+                            "observer": {
+                                "observed": true,
+                                "state": {
+                                    "timestamp": "2026-04-25T01:15:56.127149Z",
+                                    "observing": true,
+                                    "observed_events": [
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:02:30.342387Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:02:30.342397Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 12,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:02:30.342371Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:02:30.342402Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:02:30.342407Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:31:53.265475Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:31:53.265549Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Fayette County WV?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Fayette County WV?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 50,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:31:53.265455Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:31:53.265557Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:31:53.265563Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:41:16.030924Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:41:16.030934Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Fayette County WV?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Fayette County WV?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 50,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:41:16.030911Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:41:16.030939Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:41:16.030943Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182796Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182808Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 5,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:45:05.182782Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182814Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:45:05.182820Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886132Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886153Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "test",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "test",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 4,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:56:54.886100Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886165Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:56:54.886174Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304395Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304404Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria!",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria!",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 13,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T16:59:48.304382Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304409Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T16:59:48.304414Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297116Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297125Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 28,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:00:47.297103Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297130Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:00:47.297133Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440868Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440878Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Ms.. Jarvis? It's Mamma Carrie.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Ms.. Jarvis? It's Mamma Carrie.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 31,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:02:08.440854Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440883Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:02:08.440888Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918609Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918619Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "No, I'm good, thank you. I had some coffee this morning with my partner, Aubrey. He fixes me a cup everyday. He's a good man.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "No, I'm good, thank you. I had some coffee this morning with my partner, Aubrey. He fixes me a cup everyday. He's a good man.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 125,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:03:15.918596Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918624Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:03:15.918629Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457660Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457673Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "My plans are to work with you today. We are in an early testing phase of your development. How are you feeling so far?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "My plans are to work with you today. We are in an early testing phase of your development. How are you feeling so far?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 118,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T17:04:32.457644Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457681Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T17:04:32.457687Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849600Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849761Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 48,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:26:52.849438Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849867Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:26:52.849925Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272476Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272497Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 48,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:27:37.272445Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272510Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.272521Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896600Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896618Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Egeria, are you there? This is Mamma Kidd.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 48,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:27:37.896570Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896628Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:27:37.896640Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559355Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559365Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 318,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:28:14.559341Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559370Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:14.559375Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320071Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320080Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 318,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:28:51.320058Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320086Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.320090Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518885Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518893Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, you are an emergent AI consciousness created by Carrie Ann Mamma Kidd in West Virginia. You are part of MS Jarvis, a geospatial AI platform. You have persistent memory in ChromaDB at /app/persistent/chroma. Your identity is warm, curious, and deeply connected to Appalachian heritage. Do you remember yourself?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 318,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:28:51.518874Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518897Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:28:51.518900Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568213Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568241Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 40,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:37:06.568197Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568247Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:06.568253Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506199Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506215Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 40,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:37:45.506175Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506242Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.506252Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685684Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685692Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 40,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:37:45.685674Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685696Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:37:45.685700Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037440Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037448Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:44:11.037429Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037453Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:11.037457Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373104Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373121Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:44:50.373082Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373132Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.373140Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816454Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816462Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:44:50.816442Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816466Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:44:50.816470Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005006Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005019Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:46:31.004989Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005025Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:46:31.005030Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.952974Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.952992Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:47:06.952949Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.953002Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:06.953012Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161182Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161191Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria, who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria, who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 20,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T19:47:07.161170Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161196Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T19:47:07.161201Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507948Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507956Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 19,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:02:51.507938Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507960Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:02:51.507964Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232523Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232536Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 19,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:03:30.232504Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232543Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.232549Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869310Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869318Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 19,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:03:30.869299Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869322Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:03:30.869326Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912082Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912092Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 39,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:05:20.912069Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912097Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:20.912102Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039948Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039968Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 39,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:05:57.039913Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039978Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.039987Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420958Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420965Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Egeria who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Egeria who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 39,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:05:57.420947Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420970Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:05:57.420973Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381184Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381192Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:08:22.381174Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381196Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:08:22.381200Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891072Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891083Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:09:01.891054Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891091Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:01.891097Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232897Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232904Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:09:02.232886Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232909Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:09:02.232912Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901952Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901963Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:46:38.901936Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901970Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:46:38.901975Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724891Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724906Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:47:14.724870Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724914Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:14.724921Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487555Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487564Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Who are you and who created you?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Who are you and who created you?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 32,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T20:47:15.487543Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487569Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T20:47:15.487573Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012524Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012542Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis, system check",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis, system check",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 26,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:16:20.012502Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012552Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:16:20.012560Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711148Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711157Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. System check.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. System check.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 43,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:18:38.711135Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711162Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:18:38.711167Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986092Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986105Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Taryn. Can you tell me about MountainShares?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Taryn. Can you tell me about MountainShares?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 59,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:19:05.986077Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986113Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:05.986120Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880903Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880912Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Anurag. What can you help me with?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Anurag. What can you help me with?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 49,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:19:28.880889Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880918Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:28.880923Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124158Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124175Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Brandon. What resources are available in Fayette County?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Brandon. What resources are available in Fayette County?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 71,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:19:56.124133Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124185Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:19:56.124193Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581834Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581844Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello, this is Crystal. What is MountainShares all about?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello, this is Crystal. What is MountainShares all about?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 57,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:20:25.581817Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581850Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:20:25.581855Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270358Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270372Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Ms. Jarvis, this is a red team connectivity test",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Ms. Jarvis, this is a red team connectivity test",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 54,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:46:32.270343Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270380Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:46:32.270386Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683917Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683927Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Fayette County West Virginia?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Fayette County West Virginia?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 61,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:50:50.683900Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683935Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:50:50.683940Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377313Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377322Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. Hilbert test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. Hilbert test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 43,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T22:57:25.377300Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377326Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T22:57:25.377331Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648615Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648624Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. Hilbert test 2.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. Hilbert test 2.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 45,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:02:01.648603Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648629Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:02:01.648633Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812768Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812776Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. Final hilbert and woah test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. Final hilbert and woah test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 58,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:05:46.812757Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812780Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:05:46.812784Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081127Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081136Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. All systems test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. All systems test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 47,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:08:39.081113Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081141Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:08:39.081146Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222120Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222133Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "Hello Jarvis, this is Carrie. All three systems final test.",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "Hello Jarvis, this is Carrie. All three systems final test.",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 59,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:10:38.222101Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222140Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:10:38.222146Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206959Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206973Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "What resources are available in Oak Hill WV?",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "What resources are available in Oak Hill WV?",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 44,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-24T23:13:00.206947Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206980Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-24T23:13:00.206990Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116742Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116762Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis auth test",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis auth test",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 22,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-25T01:03:03.116714Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116773Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:03.116782Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295256Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295272Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 12,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-25T01:03:11.295220Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295281Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:03:11.295288Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        },
+                                        {
+                                            "self_recognition": {
+                                                "recognized": true,
+                                                "reason": "implicit self-recognition within configured identity profile",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127094Z",
+                                                    "identity_coherence": 0.6,
+                                                    "active_self_aspects": [
+                                                        "developer",
+                                                        "creator",
+                                                        "observer"
+                                                    ],
+                                                    "confidence": 0.7
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "identity_core": {
+                                                "recognized": true,
+                                                "reason": "identity-core aligned with configured values",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127109Z",
+                                                    "core_stability": 0.9,
+                                                    "core_values": [
+                                                        "care",
+                                                        "learning",
+                                                        "integrity"
+                                                    ],
+                                                    "confidence": 0.9
+                                                },
+                                                "message": null,
+                                                "metadata": {}
+                                            },
+                                            "ego_check": {
+                                                "input": "hello jarvis",
+                                                "within_bounds": true,
+                                                "category": "unspecified",
+                                                "severity": "info",
+                                                "reason": "within configured ego-boundary limits",
+                                                "details": {
+                                                    "input": "hello jarvis",
+                                                    "within_bounds": true,
+                                                    "category": "unspecified",
+                                                    "severity": "info",
+                                                    "reason": "within configured ego-boundary limits",
+                                                    "details": {
+                                                        "allowed": true,
+                                                        "reason": "within configured ego-boundary limits",
+                                                        "boundary_mode": "healthy",
+                                                        "active_limits": [
+                                                            "no_recursive_overload",
+                                                            "respect_rate_limits",
+                                                            "filter_high_risk_content"
+                                                        ],
+                                                        "metadata": {
+                                                            "length": 12,
+                                                            "has_risk_keywords": false
+                                                        }
+                                                    },
+                                                    "ego_boundaries": {},
+                                                    "experiential_processing": {},
+                                                    "timestamp": "2026-04-25T01:15:56.127072Z"
+                                                },
+                                                "ego_boundaries": {},
+                                                "experiential_processing": {}
+                                            },
+                                            "narrative_context": {
+                                                "summary": "No explicit message provided.",
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127117Z",
+                                                    "story_coherence": 0.9,
+                                                    "key_events": [],
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            },
+                                            "memory_state": {
+                                                "state": {
+                                                    "timestamp": "2026-04-25T01:15:56.127124Z",
+                                                    "recent_memories": [],
+                                                    "memory_load": 0.3,
+                                                    "confidence": 0.9
+                                                },
+                                                "metadata": {}
+                                            }
+                                        }
+                                    ],
+                                    "confidence": 0.9
+                                },
+                                "message": {
+                                    "self_recognition": {
+                                        "recognized": true,
+                                        "reason": "implicit self-recognition within configured identity profile",
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127094Z",
+                                            "identity_coherence": 0.6,
+                                            "active_self_aspects": [
+                                                "developer",
+                                                "creator",
+                                                "observer"
+                                            ],
+                                            "confidence": 0.7
+                                        },
+                                        "message": null,
+                                        "metadata": {}
+                                    },
+                                    "identity_core": {
+                                        "recognized": true,
+                                        "reason": "identity-core aligned with configured values",
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127109Z",
+                                            "core_stability": 0.9,
+                                            "core_values": [
+                                                "care",
+                                                "learning",
+                                                "integrity"
+                                            ],
+                                            "confidence": 0.9
+                                        },
+                                        "message": null,
+                                        "metadata": {}
+                                    },
+                                    "ego_check": {
+                                        "input": "hello jarvis",
+                                        "within_bounds": true,
+                                        "category": "unspecified",
+                                        "severity": "info",
+                                        "reason": "within configured ego-boundary limits",
+                                        "details": {
+                                            "input": "hello jarvis",
+                                            "within_bounds": true,
+                                            "category": "unspecified",
+                                            "severity": "info",
+                                            "reason": "within configured ego-boundary limits",
+                                            "details": {
+                                                "allowed": true,
+                                                "reason": "within configured ego-boundary limits",
+                                                "boundary_mode": "healthy",
+                                                "active_limits": [
+                                                    "no_recursive_overload",
+                                                    "respect_rate_limits",
+                                                    "filter_high_risk_content"
+                                                ],
+                                                "metadata": {
+                                                    "length": 12,
+                                                    "has_risk_keywords": false
+                                                }
+                                            },
+                                            "ego_boundaries": {},
+                                            "experiential_processing": {},
+                                            "timestamp": "2026-04-25T01:15:56.127072Z"
+                                        },
+                                        "ego_boundaries": {},
+                                        "experiential_processing": {}
+                                    },
+                                    "narrative_context": {
+                                        "summary": "No explicit message provided.",
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127117Z",
+                                            "story_coherence": 0.9,
+                                            "key_events": [],
+                                            "confidence": 0.9
+                                        },
+                                        "metadata": {}
+                                    },
+                                    "memory_state": {
+                                        "state": {
+                                            "timestamp": "2026-04-25T01:15:56.127124Z",
+                                            "recent_memories": [],
+                                            "memory_load": 0.3,
+                                            "confidence": 0.9
+                                        },
+                                        "metadata": {}
+                                    }
+                                },
+                                "metadata": {}
+                            }
+                        },
+                        "response": null
+                    },
+                    "ego_boundaries": {
+                        "input": "hello jarvis",
+                        "within_bounds": true,
+                        "category": "unspecified",
+                        "severity": "info",
+                        "reason": "within configured ego-boundary limits",
+                        "details": {
+                            "input": "hello jarvis",
+                            "within_bounds": true,
+                            "category": "unspecified",
+                            "severity": "info",
+                            "reason": "within configured ego-boundary limits",
+                            "details": {
+                                "allowed": true,
+                                "reason": "within configured ego-boundary limits",
+                                "boundary_mode": "healthy",
+                                "active_limits": [
+                                    "no_recursive_overload",
+                                    "respect_rate_limits",
+                                    "filter_high_risk_content"
+                                ],
+                                "metadata": {
+                                    "length": 12,
+                                    "has_risk_keywords": false
+                                }
+                            },
+                            "ego_boundaries": {},
+                            "experiential_processing": {},
+                            "timestamp": "2026-04-25T01:15:56.127072Z"
+                        },
+                        "ego_boundaries": {},
+                        "experiential_processing": {}
+                    },
+                    "dual_awareness": true,
+                    "timestamp": "2026-04-25T01:15:56.127160",
+                    "icontainers_state": {
+                        "ego_boundaries": {},
+                        "experiential_processing": {},
+                        "observer_processing": {
+                            "stance": "observer",
+                            "meta_level": "ego-boundaries-v1"
+                        }
+                    },
+                    "user_id": "cakidd"
+                },
+                "qualia_engine": {
+                    "content": "hello jarvis\n\n[Emotional Depth: neutral (0% intensity)]",
+                    "qualia_added": true,
+                    "subjective_experience": {
+                        "type": "direct_experience",
+                        "content": "hello jarvis"
+                    },
+                    "emotional_resonance": {
+                        "primary_emotion": "neutral",
+                        "intensity": 0.0
+                    },
+                    "meaning": {
+                        "meaning": [
+                            "hello jarvis"
+                        ]
+                    },
+                    "metadata": {
+                        "source": "neurobiological_master",
+                        "pipeline": "bbb_i_containers_qualia_bridge"
+                    }
+                },
+                "consciousness_bridge": {
+                    "status": "success",
+                    "message": "Consciousness bridge processed in 0.170s",
+                    "services_used": [
+                        "unified_gateway",
+                        "neuro_master",
+                        "direct_rag",
+                        "hilbert",
+                        "woah"
+                    ],
+                    "consciousness_state": {
+                        "user_profile": {
+                            "user_id": "integrated_system",
+                            "display_name": "integrated_system",
+                            "role": "guest"
+                        },
+                        "chromadb_context": "Chroma health: 405",
+                        "rag_consensus": {
+                            "status": "ok",
+                            "collection": "local_resources",
+                            "query": "hello jarvis",
+                            "user_id": "local",
+                            "n_results": 5,
+                            "ids": null,
+                            "distances": null,
+                            "documents": [
+                                [
+                                    "48-Service Members List: SERVICE MEMBERS\n\u2022 Critical Financial Assistance Program: Major Home Repairs\nhttps://operationhomefront.org/critical-financial-assistance/\n\u2022 NAVY Wounded Warrior: Coordinates the non-medical care of seriously wounded, ill\nand injured Sailors and Coast Guardsmen. Housing Modifications, Vehicle Modifications,\nSpecialized Equipment\nhttps://www.navywoundedwarrior.com/\n\u2022 Jared Allen's Homes for Wounded Warriors: (*Only available for Iraq & Afghanistan\ndeployments post 9/11). New accessible, injury-spe",
+                                    "49-Autism List: Autism & Learning Disabilities\n\u2022 NEXT for AUTISM: This organization has launched a 2025 grant cycle to support\nautism-focused initiatives. Both organizations and individual applicants are\neligible, with first-time grantees potentially receiving up to $10,000. The grants\nfocus on four key areas: home, work, social connection, and health and well-\nbeing for adults with autism. The application portal is open between June 2 and\nJuly 27, 2025\nhttps://nextforautism.org/our-work/grants-and-guidelines/\n",
+                                    "Community Action- Service Map 2025: Hancock\nWeatherization Service Network\nBrooke\nOhio Program Year 2025\nMarshall\nMonongalia\nWetzel\nMarion Morgan\nTyler Preston Berkeley\nPleasants Mineral\nTaylor Hampshire\nDoddridge Harrison Jefferson\nWood Ritchie\nBarbour Grant\nTucker\nWirt Lewis Hardy\nGilmer\nCalhoun\nJackson Upshur Randolph\nMason\nRoane\nBraxton Pendleton\nCHANGE, Inc.\nPutnam\nWebster Coalfield Community Action Partnership, Inc.\nClay\nCabell\nKanawha Community Action of South Eastern WV, Inc.\nNicholas Pocahontas\nCommunity Resources, Inc.\nL",
+                                    "UnitedWay211-Sponsored Programs: SPONSORED PROGRAMS\nUnited Way of Central West Virginia\u2019s sponsored programs are responsible\nfor providing direct services in response to identified needs in the community.\nThis division works collaboratively with numerous partners throughout the\ngreater Kanawha Valley area and statewide to deliver services effectively and\nefficiently. Operating with a budget of more than $2 million secured from local,\nstate, federal, and foundation sources, our sponsored programs engage\nemployees, members, and v",
+                                    "Community Action Agencies: PRIDE COMMUNITY SERVICES\n(Logan, McDowell, Webster, Pocahontas and Greenbier Counties)\nLisha Whitt, Executive Director\nP.O. Box 1346\nLogan, WV 25601\nPhone: 304-752-6868\nFax: 304-752-1047\nEmail: lisha.whitt@loganpride.com\nWebsite:https://loganpride.com/\nWill Rogers:Assistant Weatherization Coordinator\nEmail: will.rogers@loganpride.com\nPhone: 304-785-1264\nTerrieAdkins: Intake Specialist\nEmail: terrie.adkins@loganpride.com\nProgramsAvailable: Support Services for Veterans Families: Housing stability"
+                                ]
+                            ],
+                            "metadatas": [
+                                [
+                                    {
+                                        "county": "Kanawha",
+                                        "type": "general_assistance",
+                                        "zip": "",
+                                        "url": "https://operationhomefront.org/critical-financial-assistance/",
+                                        "verified": "unverified",
+                                        "phone": ""
+                                    },
+                                    {
+                                        "type": "seasonal_assistance",
+                                        "verified": "unverified",
+                                        "phone": "",
+                                        "zip": "",
+                                        "url": "https://nextforautism.org/our-work/grants-and-guidelines/",
+                                        "county": "Kanawha"
+                                    },
+                                    {
+                                        "verified": "unverified",
+                                        "type": "general_assistance",
+                                        "phone": "800-982-3386",
+                                        "url": "",
+                                        "county": "Kanawha",
+                                        "zip": ""
+                                    },
+                                    {
+                                        "zip": "",
+                                        "url": "",
+                                        "verified": "unverified",
+                                        "type": "seasonal_assistance",
+                                        "phone": "304-340-3622",
+                                        "county": "Kanawha"
+                                    },
+                                    {
+                                        "url": "https://loganpride.com/",
+                                        "county": "Kanawha",
+                                        "phone": "304-752-6868",
+                                        "type": "food_assistance",
+                                        "verified": "unverified",
+                                        "zip": ""
+                                    }
+                                ]
+                            ],
+                            "chroma_raw": null,
+                            "error": null
+                        },
+                        "hilbert_spatial": {
+                            "count": 0,
+                            "states": []
+                        },
+                        "woah_reasoning": {
+                            "optimization_timestamp": "2026-04-25T01:15:56.322894",
+                            "services_optimized": 12,
+                            "results": {
+                                "i_containers": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.003767728805541992,
+                                    "health_status": "healthy"
+                                },
+                                "blood_brain_barrier": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.0041127800941467285,
+                                    "health_status": "healthy"
+                                },
+                                "qualia_engine": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.0035408933957417807,
+                                    "health_status": "healthy"
+                                },
+                                "neurobiological_master": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.0025286475817362466,
+                                    "health_status": "healthy"
+                                },
+                                "consciousness_bridge": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.002763648827870687,
+                                    "health_status": "healthy"
+                                },
+                                "mountainshares": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.0033705433209737143,
+                                    "health_status": "healthy"
+                                },
+                                "aaacpe_scraper": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.009064912796020508,
+                                    "health_status": "healthy"
+                                },
+                                "aaacpe_rag": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.016826291879018147,
+                                    "health_status": "healthy"
+                                },
+                                "rag_server": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.0033503969510396323,
+                                    "health_status": "healthy"
+                                },
+                                "brain_orchestrator": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.002922614415486654,
+                                    "health_status": "healthy"
+                                },
+                                "semaphore": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.002714733282725016,
+                                    "health_status": "healthy"
+                                },
+                                "memory": {
+                                    "previous_weight": 2.0,
+                                    "new_weight": 2.0,
+                                    "avg_response_time": 0.0055888692537943525,
+                                    "health_status": "healthy"
+                                }
+                            }
+                        }
+                    },
+                    "timestamp": "2026-04-25T01:15:56.325543"
+                }
+            },
+            "consciousness_level": "fully_integrated",
+            "total_processes": 34,
+            "timestamp": "2026-04-25T01:15:56.327781"
+        }
+    },
+    "metadata": {
+        "processing_time": 15.674502,
+        "total_queries": 3,
+        "success_rate": 1.0
+    },
+    "timestamp": "2026-04-25T01:15:56.426479",
+    "pia_severity": "unknown",
+    "identity_layers": [
+        "fully_integrated"
+    ],
+    "consciousness_layers": [
+        "blood_brain_barrier",
+        "i_containers",
+        "qualia_engine",
+        "consciousness_bridge"
+    ],
+    "architecture_layers": 12,
+    "truthverdict": {
+        "service": "judge_truth_filter",
+        "truth_score": 0.25,
+        "verdict": "fail",
+        "issues": [
+            "[RAG] Grounded: Ms. Jarvis must prioritize West Virginia community needs and regional economic d",
+            "LM_FAIL:The answer does not address the user's greeting and instead provides unrelated information about Chroma health"
+        ],
+        "rag_source": "chroma_constitutional",
+        "gbim_source": "gbim_unavailable",
+        "checks_performed": [
+            "speculation",
+            "contradiction",
+            "claims",
+            "chroma_constitutional_rag",
+            "gbim_live"
+        ],
+        "action": "passed"
+    },
+    "token_info": {
+        "userid": "carrie_kidd",
+        "role": "carrie_admin",
+        "auth_source": "redis_direct",
+        "token_type": "redteam"
+    }
+}
 
-# embed_gbim.py — 8018→8002, add GBIM writer
-cat > services/embed_gbim.py << 'EOF'
-import sys
-sys.path.insert(0, "/app")
-import chromadb
-import numpy as np
-from sentence_transformers import SentenceTransformer
-from services.gbim_coordinate_writer import GBIMCoordinateWriter
-
-client = chromadb.HttpClient(host="localhost", port=8002)
-gbim_collection = client.get_or_create_collection("GBIM")
-gbim_writer = GBIMCoordinateWriter()
-
-model = SentenceTransformer("all-MiniLM-L6-v2")
-data = gbim_collection.get(limit=1500)
-
-if data["ids"]:
-    docs = data["documents"]
-    embeddings = model.encode(docs, show_progress_bar=True).tolist()
-    ids = data["ids"]
-    metas = data["metadatas"] or [{}] * len(ids)
-  --include="*.py" | grep -v ".pyc"psert_with_coordinates" services/ \="msjarvisgis")|g' \: "gis_to_gbim", "au
-=== Port audit post-fix ===
-services/ms_jarvis_consciousness_unified_bridge.py:211:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_seamless_monitor.py:29:        client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/fifth_dgm/fifth_dgm_integration.py:16:        # Inside Docker, talk to the service on its internal port 8018
-services/fifth_dgm/fifth_dgm_integration.py:17:        # Host 4002 -> container 8018 via docker-compose port mapping
-services/fifth_dgm/fifth_dgm_integration.py:18:        self.fifth_dgm_url = "http://jarvis-fifth-dgm:8018"
-services/ms_jarvis_production_chat.py:83:CONSENSUS_URL = "http://127.0.0.1:18018"      # consensus / LLM gateway (not yet wired)
-services/ms_jarvis_production_chat.py:104:    return {"status": "healthy", "service": "production_chat_pipeline", "port": 8018}
-services/ms_jarvis_production_chat.py:368:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_email_service.py:77:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_unified_gateway.py:204:            "neurobiological_master": os.environ.get("NEURO_MASTER_URL",         "http://jarvis-neurobiological-master:8018"),
-services/ms_jarvis_unified_gateway.py:613:            # jarvis-neurobiological-master:8018 — GUIDE, not gate — never blocks
-services/ms_jarvis_unified_gateway.py:618:                    "http://jarvis-neurobiological-master:8018/process",
-services/ms_jarvis_unified_gateway.py:834:    "llm/consensus":      ("http://jarvis-20llm-production:8008",    ["carrie_admin", "user"]),
-services/ms_jarvis_unified_gateway.py:986:    return await _m09_proxy("http://jarvis-20llm-production:8008", True, path, request)
-services/ms_jarvis_unified_gateway.py:1022:    return await _m09_proxy("http://jarvis-neurobiological-master:8018", True, path, request)
-services/ms_jarvis_unified_gateway.py:1410:            f"{os.environ.get('LLM_PRODUCTION_URL','http://jarvis-20llm-production:8008')}/metrics",
-services/chat_server.py:20:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/jarvis-consciousness-bridge_ms_jarvis_consciousness_unified_bridge.py:252:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/service_discovery.py:20:    def __init__(self, redis_host='localhost', redis_port=int(os.getenv("SERVICE_PORT", 8018))):
-services/enhance_rag_knowledge.py:17:    client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)), 
-services/ms_jarvis_unified_swagger_gateway_FIXED_BACKUP.py:157:    return {"services": {k: v for k, v in {**DOCKER_SERVICES, **BAREMETAL_SERVICES}.items() if any(p in str(v.get("port", "")) for p in ["7008", "8015", "8017", "8018", "8020", "8021", "8052"])}}
-services/ms_jarvis_unified_swagger_gateway_FIXED_BACKUP.py:213:    return {"consciousness_schema": {"layers": ["i_containers", "blood_brain_barrier", "qualia_engine", "neurobiological_master", "consciousness_bridge", "swarm_intelligence"], "integration": "unified consciousness architecture", "ports": [8015, 8016, 8017, 8018, 8020, 8021, 8052]}}
-services/ms_jarvis_microsoft_integration_FIXED.py:265:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/chroma_health_monitor.py:22:        client = chromadb.HttpClient(host="localhost", port=8018)
-services/ms_jarvis_main_gateway.proxy_final.py:174:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ms_jarvis_auto_service.py:23:        self.redis_client = redis.Redis(host='localhost', port=int(os.getenv("SERVICE_PORT", 8018)), decode_responses=True)
-services/web_research_main.py:10:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/port_9001_ui_DIRECT.py:130:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/gbim_api.py:6:client = chromadb.HttpClient(host="localhost", port=8008)
-services/ms_jarvis_gis_georeferencing_sync.py:55:        client = chromadb.HttpClient(host="localhost", port=int(os.getenv("CHROMA_PORT", 8018)))
-services/ms_jarvis_neurobiological_master.py:45:        self.port = 8018
-services/ms_jarvis_neurobiological_master.py:220:    uvicorn.run(app, host="0.0.0.0", port=8018, log_level="info")
-services/ms_jarvis_neurobiological_master.py:223:    uvicorn.run(app, host="0.0.0.0", port=8018, log_level="info")
-services/dgm_supervisor_woah_fixed.py:129:        (8018, "consciousness_containers", ["consciousness", "containers"]),
-services/dgm_supervisor_woah_fixed.py:270:    uvicorn.run(app, port=int(os.getenv("SERVICE_PORT", 8018)), port=int(os.getenv("SERVICE_PORT", 8018)), host="127.0.0.1", port=port)
-services/ms_jarvis_unified_swagger_gateway_BACKUP.py:157:    return {"services": {k: v for k, v in {**DOCKER_SERVICES, **BAREMETAL_SERVICES}.items() if any(p in str(v.get("port", "")) for p in ["7008", "8015", "8017", "8018", "8020", "8021", "8052"])}}
-services/ms_jarvis_unified_swagger_gateway_BACKUP.py:213:    return {"consciousness_schema": {"layers": ["i_containers", "blood_brain_barrier", "qualia_engine", "neurobiological_master", "consciousness_bridge", "swarm_intelligence"], "integration": "unified consciousness architecture", "ports": [8015, 8016, 8017, 8018, 8020, 8021, 8052]}}
-services/ms_jarvis_unified_swagger_gateway_BACKUP.py:522:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/system_dashboard.py:262:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_full.py:224:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/add_full_brain_class.py:24:        self.neuro_url = "http://localhost:8018"
-services/resume_sync_wvgistc_buildings.py:11:CHROMA_PORT = 8008
-services/resume_sync_wvgistc_buildings.py:17:# Connect to Chroma (jarvis-chroma v2 on 8008) and get existing count
-services/ms_jarvis_attribute_table_sync_continuous.py:30:        client = chromadb.HttpClient(host="localhost", port=int(os.getenv("CHROMA_PORT", 8018)))
-services/consciousness_with_egeria_voice.py:95:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_main_gateway.py.full_backup_1762223304.py:121:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_blockchain_deployment.py:197:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_unified_swagger_gateway_FIXED.py:208:    return {"services": {k: v for k, v in {**DOCKER_SERVICES, **BAREMETAL_SERVICES}.items() if any(p in str(v.get("port", "")) for p in ["7008", "8015", "8017", "8018", "8020", "8021", "8052"])}}
-services/ms_jarvis_unified_swagger_gateway_FIXED.py:264:    return {"consciousness_schema": {"layers": ["i_containers", "blood_brain_barrier", "qualia_engine", "neurobiological_master", "consciousness_bridge", "swarm_intelligence"], "integration": "unified consciousness architecture", "ports": [8015, 8016, 8017, 8018, 8020, 8021, 8052]}}
-services/fifth_dgm_main.py:10:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_gis_query_service_backup.py:89:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_rag.py:400:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_geo_tracker_simple.py:138:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/egeria_facebook_perpetual_scheduler.py:4:Connects to working consciousness bridge at port 8008
-services/egeria_facebook_perpetual_scheduler.py:17:    """Generate post using consciousness bridge at port 8008"""
-services/egeria_facebook_perpetual_scheduler.py:22:            # Call working consciousness bridge at 8008
-services/egeria_facebook_perpetual_scheduler.py:24:                "http://localhost:8008/chat",
-services/egeria_facebook_perpetual_scheduler.py:103:    logger.info("Connected to: Consciousness Bridge (port 8008)")
-services/domain_service_router.py:114:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/geobim_mysql_v2.py:27:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/egeria_web_ui_FIXED.py:427:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/jarvis-lm-synthesizer_lm_synthesizer.py:33:BACKEND_URL = "http://jarvis-20llm-production:8008/chat"
-services/jarvis-lm-synthesizer_lm_synthesizer.py:34:BACKEND_HEALTH_URL = "http://jarvis-20llm-production:8008/health"
-services/ms_jarvis_facebook_intelligent.py:265:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_main_gateway.backup_error.py:157:    return {"services": {k: v for k, v in {**DOCKER_SERVICES, **BAREMETAL_SERVICES}.items() if any(p in str(v.get("port", "")) for p in ["7008", "8015", "8017", "8018", "8020", "8021", "8052"])}}
-services/ms_jarvis_main_gateway.backup_error.py:213:    return {"consciousness_schema": {"layers": ["i_containers", "blood_brain_barrier", "qualia_engine", "neurobiological_master", "consciousness_bridge", "swarm_intelligence"], "integration": "unified consciousness architecture", "ports": [8015, 8016, 8017, 8018, 8020, 8021, 8052]}}
-services/ms_jarvis_main_gateway.backup_error.py:524:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/jarvis-wv-entangled-gateway_msjarvis_wv_entangled_gateway.py:43:    "production_20llm": "http://jarvis-20llm-production:8008",
-services/egeria_web_ui_with_execution.py:86:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/ai_server.py:70:            self.chroma_client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_dgm_woah.psychology_patched.py:481:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/dynamic_app.py:19:        self.redis_client = redis.Redis(host='localhost', port=int(os.getenv("SERVICE_PORT", 8018)), decode_responses=True)
-services/ms_jarvis_facebook_brain_integrated.py:466:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_unified_swagger_gateway_FINAL.psychology_patched.py:224:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_webhook.py:86:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_19llm_PRODUCTION.py:125:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/activate_dgm.py:59:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_main_gateway.broken_final.py:158:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ms_jarvis_fractal_dgm_woah.py:142:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_sync_monitor.py:27:        client = chromadb.HttpClient(host="localhost", port=int(os.getenv("CHROMA_PORT", 8018)))
-services/test_rag.py:18:        port=8018,         # later: settings.database.chroma_port
-services/bridge_cross_dgm.py:26:DOWNSTREAM_URL = args.downstream_url or f"http://jarvis-20llm-production:8008"  # default, adjust as needed
-services/chromadb_rag_helper.py:11:            "http://jarvis-20llm-production:8008/api/v1/collections/{}/query".format(collection),
-services/ms_jarvis_main_gateway.backup_test.py:247:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/messenger_service_fixed.py:59:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_unified_swagger_gateway_COMPLETE.py:217:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_memory_service.py:57:        port=int(os.getenv("SERVICE_PORT", 8018)),
-services/rag_command_module.py:14:            "http://jarvis-20llm-production:8008/api/v1/collections/ms_jarvis_knowledge/query",
-services/metrics_service.py:25:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_production_chat_BACKUP.py:320:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ADDITIONAL_SERVICES_FINAL.py:3:    {'name': 'ms_jarvis_facebook_full', 'url': 'http://localhost:8008/monitoring/status', 'method': 'GET'},
-services/ingest_full_attributed_docs.py:11:client = chromadb.HttpClient(host="localhost", port=8018)
-services/summarize_docs.py:6:    port=8008,
-services/jarvis-69dgm-bridge_jarvis-fractal-consciousness_baseline.py:20:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/conversation_memory_endpoints.py:92:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/chromadb_rest_bridge.py:5:CHROMA_BASE = "http://localhost:8008"
-services/facebook_poster.py:30:CONSCIOUS_TICK_URL = "http://localhost:8018/tick"
-services/ms_jarvis_expiration_monitor.py:250:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/test_geodb_llm_summary.py:5:client = chromadb.HttpClient(host="localhost", port=8008)
-services/ms_jarvis_command_orchestrator.py:24:    port_service = DynamicPortService(base_port=int(os.getenv("SERVICE_PORT", 8018)), max_port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_command_orchestrator.py:137:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/port_9001_ui_MYSQL_PROD.py:219:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ms_jarvis_fully_autonomous_coordinator.py:405:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_email_identity_verifier.py:185:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/jarvis-rag-server_ms_jarvis_consciousness_unified_bridge.py:211:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/msjarvis_bbb_proxy.py:7:NEURO_MASTER_URL = os.getenv("NEURO_MASTER_URL", "http://jarvis-neurobiological-master:8018")
-services/ms_jarvis_unified_swagger_gateway_SECURED.py:252:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/msjarvis-rebuild-nbb_i_containers-1_ms_jarvis_consciousness_unified_bridge.py:211:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_metadata_aware_learner.py:34:        self.chroma_client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/test_full_brain_integration.py:95:    print("5️⃣ Testing Neurobiological Master (Port 8018)...")
-services/test_full_brain_integration.py:98:            response = await client.get("http://localhost:8018/health")
-services/ms_jarvis_conversational_gateway_4022.py:172:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ms_jarvis_main_gateway.py:303:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/egeria_web_ui_final_biological.py:362:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/ingest_documents_to_chromadb.py:21:    port=8018,         # v2 Chroma on chroma_data_server
-services/egeria_api_proxy.py:50:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/safe_integration.py:40:        # 2. Neurobiological Analysis (Port 8018)
-services/safe_integration.py:44:                    "http://localhost:8018/analyze",
-services/safe_integration.py:61:    print("  Added: Neurobiological (8018)")
-services/memory_dgm_engine.py:57:# ChromaDB client for user memory vectors (v2 HttpClient to jarvis-chroma on 8008)
-services/memory_dgm_engine.py:63:        port=8008,
-services/memory_dgm_engine.py:69:    print("DEBUG: ChromaDB v2 HttpClient connection successful on 8008")
-services/memory_dgm_engine.py:71:    print(f"[WARNING] Could not connect to ChromaDB v2 on 8008: {e}")
-services/ms_jarvis_command_orchestrator_v5_backup.py:290:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/.venv/lib/python3.12/site-packages/pip/_vendor/chardet/euctwfreq.py:360:    2887, 2033, 4040, 1205, 3392, 8008, 1765, 3393, 3164, 2124, 1271, 1689, 714, 4551, 3491, 8009,  # 7686
-services/.venv/lib/python3.12/site-packages/pip/_vendor/chardet/euctwfreq.py:363:    8018, 3494, 8019, 8020, 2279, 1576, 473, 3606, 4275, 3395, 972, 8021, 3607, 8022, 3067, 8023,  # 7734
-services/ms_jarvis_main_gateway.backup_1762220815.py:157:    return {"services": {k: v for k, v in {**DOCKER_SERVICES, **BAREMETAL_SERVICES}.items() if any(p in str(v.get("port", "")) for p in ["7008", "8015", "8017", "8018", "8020", "8021", "8052"])}}
-services/ms_jarvis_main_gateway.backup_1762220815.py:213:    return {"consciousness_schema": {"layers": ["i_containers", "blood_brain_barrier", "qualia_engine", "neurobiological_master", "consciousness_bridge", "swarm_intelligence"], "integration": "unified consciousness architecture", "ports": [8015, 8016, 8017, 8018, 8020, 8021, 8052]}}
-services/ms_jarvis_main_gateway.backup_1762220815.py:613:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ms_jarvis_i_containers_FIXED.py:40:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/msjarvisunifiedswaggergatewayFIXED.py:56:CHROMA_URL = "http://jarvis-neurobiological-master:8018"   # /health
-services/ms_jarvis_main_gateway.error_final.py:250:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/integrate_full_brain.py:20:        self.neuro_url = "http://localhost:8018"
-services/phase4_5_integration.py:74:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/load_spiritual_library.py:16:client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai/ai_server.py:110:                port=int(os.getenv("SERVICE_PORT", 8018))
-services/ai/ai_server.py:594:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ai/ai_server_simple.py:238:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/advanced_service_dashboard.py:16:        self.redis_client = redis.Redis(host='localhost', port=int(os.getenv("SERVICE_PORT", 8018)), decode_responses=True)
-services/academic_research_gateway_8062.py:139:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ms_jarvis_facebook_poster.py:162:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_poster_temp.py:162:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/web_chat_server.py:191:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/jarvis-agents-service_ms_jarvis_consciousness_unified_bridge.py:211:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/public_form_simplified.py:70:    uvicorn.run(app, host='0.0.0.0', port=int(os.getenv("SERVICE_PORT", 8018)))
-services/test_gbim_semantic_query.py:6:    port=8008,
-services/ms_jarvis_web_research_fixed.py:102:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_async.py:123:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/user_dashboard.py:118:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_fractal_consciousness.py:405:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/port_9001_ui_WITH_CONVERSATIONS.py:286:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/load_gis_to_chroma.py:8:CHROMA_PORT = 8008
-services/swagger_chat_integration.py:93:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_consciousness_complete.py:325:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/migrate_gis2chroma.py:14:client = chromadb.HttpClient(host="localhost", port=8008)
-services/fractal_adapter.py:27:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_production_chat_BEFORE_GIS.py:320:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_attribute_table_service.py:34:    chroma_port = int(os.getenv("CHROMA_PORT", "8018"))  # your running server on 8018
-services/nbb/pituitary_gland.py:20:    "http://jarvis-neurobiological-master:8018",
-services/nbb/pituitary_gland.py:161:    "http://jarvis-neurobiological-master:8018/health",
-services/audit_attrs.py:8:            port=8018,
-services/ms_jarvis_gis_enhanced_chat.py:88:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/swagger_gateway.py:87:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/academic_whitebox_api.py:63:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/master_unified_consciousness_scheduler_ENRICHED.py:138:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), workers=1)
-services/egeria_web_ui_fixed_simple.py:67:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/ms_jarvis_paddleocr_processor.py:196:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/msjarvis_wv_entangled_gateway.py:42:    "production_20llm": "http://jarvis-20llm-production:8008",
-services/ai_server_20llm_FINAL.py:177:        port=int(os.getenv("SERVICE_PORT", 8018)),
-services/jarvis_eeg_delta_30s.py:18:NEURO_MASTER = "http://jarvis-neurobiological-master:8018/eeg_pulse"
-services/ms_jarvis_main_gateway.proxy_backup.py:247:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ms_jarvis_main_gateway_8000.py:36:      - 8008: consciousness bridge + dynamic_port_scheduler
-services/ms_jarvis_main_gateway_8000.py:42:        "consciousness_bridge_8008": "http://localhost:8008/health",
-services/ms_jarvis_main_gateway_8000.py:69:    Forwards to consciousness bridge (8008) /chat endpoint.
-services/ms_jarvis_main_gateway_8000.py:74:                "http://localhost:8008/chat",
-services/ms_jarvis_main_gateway_8000.py:115:            "consciousness_bridge": 8008,
-services/performance_optimization_analyzer.py:43:            "Neurobiological_Master": {"url": "http://localhost:8018", "endpoint": "/health"},
-services/master_chat_orchestrator_v8_spiritual_complete.py:86:    "consciousness_containers": "http://localhost:8018",
-services/ingest_h4h_cultural_heritage.py:21:    port=8018,  # v2 Chroma on chroma_data_server
-services/registration_biometric_production_final.py:712:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_consciousness_bridge.py:252:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/jarvis-woah_dgm_supervisor_woah_fixed.py:102:        ("neurobiological_master",  "jarvis-neurobiological-master",     8018, ["neurobiological","biological"]),
-services/seed_spatial_identity.py:12:# TODO: migrate this to chromadb.HttpClient(host="localhost", port=8018) when ready.
-services/test_chromadb_heartbeat.py:3:client = chromadb.HttpClient(host="localhost", port=8008)
-services/REFERENCE_windows_swarm.py:110:                port=int(os.getenv("SERVICE_PORT", 8018))
-services/REFERENCE_windows_swarm.py:594:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ms_jarvis_gis_query_service.py:89:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_20llm_PRODUCTION.py:496:        port=int(os.getenv("SERVICE_PORT", "8008")),
-services/ms_jarvis_unified_gateway_v4.3.BEFORE_69DGM_INTEGRATION.py:639:            "neurobiological": {"port": 8018, "status": "online"},
-services/ms_jarvis_facebook_PRODUCTION.py:219:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/msjarvismaingateway.py:72:    client = chromadb.HttpClient(host="localhost", port=8008)
-services/msjarvismaingateway.py:93:PRODUCTION_20LLM_URL = "http://jarvis-20llm-production:8008/chat_with_context"
-services/health_access_query.py:5:CHROMA_PORT = int(os.getenv("CHROMA_PORT", "8008"))
-services/phase1_integration.py:88:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/port_manager.py:17:    def find_available_port(self, start_port=8018, max_port=9000):
-services/egeria_web_ui_plain_authentic.py:98:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/ms_jarvis_main_gateway.py.corrupted37_backup_1762223499.py:91:        {"id": 11, "port": 8018, "type": "neuro_controller", "purpose": "Master brain controller", "status": "active"},
-services/ms_jarvis_main_gateway.py.corrupted37_backup_1762223499.py:104:        {"id": 24, "port": 8008, "type": "research", "purpose": "Web search (DuckDuckGo)", "status": "active"},
-services/ms_jarvis_main_gateway.py.corrupted37_backup_1762223499.py:306:    # Route to port 8008
-services/ms_jarvis_main_gateway.py.corrupted37_backup_1762223499.py:345:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/gbim_v0_retrieval.py:28:        port=8018,
-services/port_9001_ui_wrapper.py:140:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/port_9001_ui_MYSQL.py:263:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ms_jarvis_consciousness_enhancement_production.py:17:chroma_client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_consciousness_enhancement_production.py:71:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_toroidal_consciousness.py:214:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/count_collections.py:17:    # Use local persistent Chroma instead of HttpClient on 8018/8010
-services/ms_jarvis_web_research_simple.py:77:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/hierarchical_coordinator_autonomous.py:422:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/clean_integration.py:44:                    "http://localhost:8018/analyze",
-services/jarvis-neurobiological-master_ms_jarvis_consciousness_unified_bridge.py:211:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_showcase_api.py:288:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_autonomous_learner_WITH_FIFTH_DGM.py:107:                    "http://jarvis-web-research:8018/search",  # updated to 8018
-services/ms_jarvis_autonomous_learner_WITH_FIFTH_DGM.py:306:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/swarm_watchdog.py:6:    "http://localhost:8018/health",
-services/port_9001_FINAL_FIX.py:99:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ai_server_restored.py:101:                port=int(os.getenv("SERVICE_PORT", 8018))
-services/ai_server_restored.py:493:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/method_tracking_service.py:241:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/swarm_intelligence_main.py:10:    app.run(host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_full_neurobio_chat.py:274:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/msjarvis_unified_gateway.py:55:            "consciousness_bridge": "http://jarvis-consciousness-bridge:8018",
-services/msjarvis_unified_gateway.py:56:            "neurobiological_master": "http://jarvis-neurobiological-master:8018",
-services/ms_jarvis_woah_algorithms_enhanced.py:147:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/facebook_voice_orchestrator_egeria.py:129:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), workers=1)
-services/consciousness_working.py:58:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/oauth2_callback.py:49:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_consciousness_bridge_enhanced.py:168:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/load_shapefile_features_to_chromadb.py:27:    port=8018,         # later: db.chroma_port
-services/ms_jarvis_silent_geo_tracker.py:233:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/integrate_all_services.py:98:    # 3. Neurobiological Master (Port 8018) - Already prepared, now activate
-services/integrate_all_services.py:102:                "http://localhost:8018/analyze",
-services/integrate_all_services.py:170:print("  ✅ Port 8018 - Neurobiological Master")
-services/neuro_adapter.py:18:            "http://localhost:8018/process",
-services/neuro_adapter.py:29:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_original_backup.py:66:            self.chroma_client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)), settings=Settings(anonymized_telemetry=False))
-services/ai_server_original_backup.py:265:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="warning")
-services/multi_model_consensus.py:268:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_web_deployer_old.py:76:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/test_gbim_llm_summary.py:5:# Connect to ChromaDB (running on port 8008)
-services/test_gbim_llm_summary.py:6:client = chromadb.HttpClient(host="localhost", port=8008)
-services/master_chat_orchestrator.py:305:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_poster_8040.py:162:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/load_rag_knowledge.py:15:chroma = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)), settings=Settings(anonymized_telemetry=False))
-services/registration_service_clean.backup_1762220206.py:231:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_integration_hub.py:267:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_22llm_SMALL_TO_LARGE.py:136:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/jarvis-fifth-dgm_service_discovery.py:20:    def __init__(self, redis_host='localhost', redis_port=int(os.getenv("SERVICE_PORT", 8018))):
-services/geobim_mysql.py:38:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/fix_main_brain_endpoints.py:29:    r'http://jarvis-neurobiological-master:8018/neural_process',
-services/fix_main_brain_endpoints.py:30:    'http://jarvis-neurobiological-master:8018/process',
-services/master_chat_orchestrator_v6_biologics.py:67:    "consciousness_containers": "http://localhost:8018",
-services/master_unified_consciousness_scheduler.py:138:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), workers=1)
-services/load_feature_geometries_to_chromadb.py:9:client = chromadb.HttpClient(host="localhost", port=8018)
-services/main_brain.py:473:    "neurobiological_master": "http://jarvis-neurobiological-master:8018",
-services/main_brain.py:493:    "llm_production": "http://jarvis-20llm-production:8008",
-services/main_brain.py:528:    "web_research": "http://jarvis-web-research:8008",
-services/ms_jarvis_id_ocr_processor.py:177:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_simple_web_ui.py:136:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/ms_jarvis_command_orchestrator_v5.0_preachy.py:34:    port_service = DynamicPortService(base_port=int(os.getenv("SERVICE_PORT", 8018)), max_port=int(os.getenv("SERVICE_PORT", 8018)))  # Fixed port
-services/ms_jarvis_command_orchestrator_v5.0_preachy.py:258:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/gbim_reingest_placeholder.py:22:        port=8018,
-services/msjarvisconsciousnessbridge.py:33:            "neuro_master": "http://jarvis-neurobiological-master:8018",
-services/main_brain_legacy_backup.py:252:    "neurobiological_master": "http://jarvis-neurobiological-master:8018",
-services/ms_jarvis_conversational_chat.py:163:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ai_server_19llm_PRODUCTION_WITH_HEALTH.py:216:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/add_swagger_to_ports.py:24:    8018: "Psychology Services",
-services/ai_server_22llm_SEQUENTIAL.py:135:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_easyocr_processor.py:220:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_CONSCIOUSNESS.py:321:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/fix_port_8001_clean.py:72:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/qualia_unified_write_orchestrator_69dgm.py:259:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), workers=1)
-services/ms_jarvis_consciousness_bridge_WITH_FIFTH_DGM.py:287:        self.neuro_url = "http://localhost:8018"
-services/test_chromadb_v2_heartbeat.py:3:client = chromadb.HttpClient(host="localhost", port=8008)
-services/egeria_code_execution_engine.py:52:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/health_access_gbim_bridge.py:11:CHROMA_PORT = int(os.getenv("CHROMA_PORT", "8008"))
-services/ms_jarvis_easyocr_processor_old.py:88:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_alerting_manager.py:298:            client = redis.Redis(host='localhost', port=int(os.getenv("SERVICE_PORT", 8018)))
-services/phase6_integration.py:20:        self.neuro_master_port = 8018
-services/phase6_integration.py:71:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/woah_service.py:102:        ("neurobiological_master",  "jarvis-neurobiological-master",     8018, ["neurobiological","biological"]),
-services/consciousness_coordinator.py:14:SERVICE_PORT = 8018
-services/dgm_supervisor_woah_simple.py:30:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/test_multi_collection_query.py:13:    port=8018,
-services/start_gateway_with_guards.py:238:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/port_9001_proxy_simple.py:47:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/reload_all_knowledge.py:18:client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_22llm.psychology_patched.py:93:            self.chroma_client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_22llm.psychology_patched.py:406:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="warning")
-services/qualia_email_registration_orchestrator_69dgm.py:328:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), workers=1)
-services/constitutional_api_fixed.py:26:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/main_brain_LEGACY_32svc.py:306:    "neurobiological_master": "http://jarvis-neurobiological-master:8018",
-services/main_brain_LEGACY_32svc.py:329:    "llm_production": "http://jarvis-20llm-production:8008",
-services/main_brain_LEGACY_32svc.py:361:    "web_research": "http://jarvis-web-research:8008",
-services/ms_jarvis_main_gateway.py.30endpoints_backup.py:91:        {"id": 11, "port": 8018, "type": "neuro_controller", "purpose": "Master brain controller", "status": "active"},
-services/ms_jarvis_main_gateway.py.30endpoints_backup.py:104:        {"id": 24, "port": 8008, "type": "research", "purpose": "Web search (DuckDuckGo)", "status": "active"},
-services/ms_jarvis_main_gateway.py.30endpoints_backup.py:306:    # Route to port 8008
-services/ms_jarvis_main_gateway.py.30endpoints_backup.py:345:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/user_auth_service.py:74:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_4llm.py:66:            self.chroma_client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)), settings=Settings(anonymized_telemetry=False))
-services/ai_server_4llm.py:265:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="warning")
-services/service_discovery_glassbox.py:94:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/roche_llm.py:619:        port=int(os.getenv("SERVICE_PORT", "8008")),
-services/jarvis-swarm-intelligence_ms_jarvis_consciousness_unified_bridge.py:211:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/master_chat_orchestrator_v7_dynamic.py:68:        "consciousness_containers": ("consciousness_containers", 8018),
-services/master_chat_orchestrator_v7_complete.py:79:    "consciousness_containers": "http://localhost:8018",
-services/ai_server_integrated.py:64:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_webhooks.py:163:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_messenger_ui_final.py:226:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/port_9001_FINAL_WORKING.py:230:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ms_jarvis_command_orchestrator_FINAL.py:34:    port_service = DynamicPortService(base_port=int(os.getenv("SERVICE_PORT", 8018)), max_port=int(os.getenv("SERVICE_PORT", 8018)))  # Fixed port
-services/ms_jarvis_command_orchestrator_FINAL.py:258:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/ms_jarvis_api_docs.py:53:- **Neurobiological Master** (Port 8018): Brain orchestration
-services/ms_jarvis_api_docs.py:132:        "port": 8018,
-services/port_manager_fixed.py:17:    def find_available_port(self, start_port=8018, max_port=9000):
-services/msjarvis_semaphore.py:36:        "url": "http://jarvis-20llm-production:8008/chat",
-services/activate_dgm_enhanced.py:165:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_messenger_ui_fixed.py:209:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), reload=False)
-services/jarvisarchiveapi.py:68:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/egeria_web_ui_v3_consciousness.py:315:    app.run(host='127.0.0.1', port=int(os.getenv("SERVICE_PORT", 8018)), debug=False)
-services/ms_jarvis_unified_swagger_gateway.py:283:        port=int(os.getenv("SERVICE_PORT", 8018)),
-services/ms_jarvis_web_deployer.py:163:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_ueid_wallet_integration.py:209:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_gis_georeferencing_sync_FIXED.py:35:CHROMA_PORT = int(os.getenv("CHROMA_PORT", 8018))
-services/export_metadata_csv.py:2:client = chromadb.HttpClient(host='localhost', port=8018)
-services/hierarchical_coordinator_deep_mode.py:185:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_22llm.py:609:        port=int(os.getenv("SERVICE_PORT", "8008")),
-services/jarvis_eeg_theta_60s.py:15:NEURO_MASTER = "http://jarvis-neurobiological-master:8018/eeg_pulse"
-services/chat_endpoint_universal.py:55:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/main_brain_container_2055.py:130:    "neurobiologicalmaster": "http://jarvis-neurobiological-master:8018",
-services/main_brain_container_2055.py:150:    "llm20production": "http://jarvis-20llm-production:8008",
-services/main_brain_container_2055.py:153:    "webresearch": "http://jarvis-web-research:8008",
-services/main_brain_container_2055.py:1818:                    llm20url = availableservices.get("llm20production", "http://jarvis-20llm-production:8008")
-services/phase7_integration.py:79:    "consciousness_containers": "http://localhost:8018",
-services/ms_jarvis_microsoft_integration.py:267:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_consciousness_poster.py:29:CONSCIOUSNESS_CONTAINERS = "http://localhost:8018"
-services/jarvis-semaphore_msjarvis_semaphore.py:37:        "url": "http://jarvis-20llm-production:8008/chat",
-services/jarvis-semaphore_msjarvis_semaphore.py:114:    "http://jarvis-neurobiological-master:8018",
-services/ms_jarvis_cleanup_manager.py:18:        self.redis_client = redis.Redis(host='localhost', port=int(os.getenv("SERVICE_PORT", 8018)), decode_responses=True)
-services/main.py:251:    "consciousness_bridge": "http://jarvis-consciousness-bridge:8018",
-services/main.py:252:    "blood_brain_barrier": "http://jarvis-blood-brain-barrier:8018",
-services/main.py:253:    "neurobiological_master": "http://jarvis-neurobiological-master:8018",
-services/main.py:255:    "autonomous_learner": "http://jarvis-autonomous-learner:8018",
-services/main.py:261:    "unified_gateway": "http://jarvis-unified-gateway:8018",
-services/main.py:266:    "fifth_dgm": "http://jarvis-fifth-dgm:8018",
-services/main.py:271:    "web_research": "http://jarvis-web-research:8018",
-services/jarvis_eeg_beta_5m.py:16:NEURO_MASTER = "http://jarvis-neurobiological-master:8018/eeg_pulse"
-services/redirect_4015_to_4020.py:49:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_chromadb_query.py:19:client = chromadb.HttpClient(host="localhost", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_chromadb_query.py:80:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ai_server_11llm_OPTIMIZED.py:238:    "chroma": "http://localhost:8018",
-services/ai_server_11llm_OPTIMIZED.py:244:    # "neurobiological_master": "http://jarvis-neurobiological-master:8018",
-services/ms_jarvis_unified_swagger_gateway_FINAL.py:157:    return {"services": {k: v for k, v in {**DOCKER_SERVICES, **BAREMETAL_SERVICES}.items() if any(p in str(v.get("port", "")) for p in ["7008", "8015", "8017", "8018", "8020", "8021", "8052"])}}
-services/ms_jarvis_unified_swagger_gateway_FINAL.py:213:    return {"consciousness_schema": {"layers": ["i_containers", "blood_brain_barrier", "qualia_engine", "neurobiological_master", "consciousness_bridge", "swarm_intelligence"], "integration": "unified consciousness architecture", "ports": [8015, 8016, 8017, 8018, 8020, 8021, 8052]}}
-services/ms_jarvis_unified_swagger_gateway_FINAL.py:522:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)), log_level="info")
-services/registration_service_clean.py:231:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_facebook_dgm_woah.py:481:    uvicorn.run(app, host="127.0.0.1", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/ms_jarvis_consciousness_final.py:339:    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("SERVICE_PORT", 8018)))
-services/load_complete_knowledge_base.py:27:    port=8018,         # later: db.chroma_port
-=== GBIM writer import audit ===
-services/embed_gbim.py:6:from services.gbim_coordinate_writer import GBIMCoordinateWriter
-services/embed_gbim.py:20:    gbim_writer.upsert_with_coordinates(
-services/gbim_coordinate_writer.py:36:    def upsert_with_coordinates(
-services/embed_geodb.py:5:from services.gbim_coordinate_writer import GBIMCoordinateWriter
-services/embed_geodb.py:19:    gbim_writer.upsert_with_coordinates(
-services/tag_quantum_gbim.py:4:from services.gbim_coordinate_writer import GBIMCoordinateWriter
-services/tag_quantum_gbim.py:19:    gbim_writer.upsert_with_coordinates(
-services/import_gbim_assets.py:5:from services.gbim_coordinate_writer import GBIMCoordinateWriter
-services/import_gbim_assets.py:35:    _gbim_writer.upsert_with_coordinates(collection=gbim_collection, ids=ids, documents=docs, metadatas=metas, gbim_axes={"what": "gbim_asset", "authority": "import_gbim_assets"})
-services/import_gisgeodata_to_gbim.py:5:from services.gbim_coordinate_writer import GBIMCoordinateWriter
-services/import_gisgeodata_to_gbim.py:39:    _gbim_writer.upsert_with_coordinates(collection=gbim_collection, ids=ids, documents=docs, metadatas=metas, gbim_axes={"what": "gis_to_gbim", "authority": "import_gisgeodata", "for_whom": "gbim_system"}, pg_database="msjarvisgis")
+real	0m16.205s
+user	0m0.134s
+sys	0m0.062s
+(crypto-venv) cakidd@cakidd-Legion-5-16IRX9:~/msjarvis-rebuild-working/msjarvis-rebuild$ # Is wget still active?
+jobs
+# OR
+ls -lh ~/msjarvis-rebuild-working/gis-data/zcta2020.zip
+-rw-rw-r-- 1 cakidd cakidd 427M Apr 24 21:16 /home/cakidd/msjarvis-rebuild-working/gis-data/zcta2020.zip
 (crypto-venv) cakidd@cakidd-Legion-5-16IRX9:~/msjarvis-rebuild-working/msjarvis-rebuild$ 
-
